@@ -1,0 +1,14 @@
+[Bitcoin]
+    UpperLimit = 30000.0             #价格上限，单位个/美元,带上小数点
+    LowerLimit = 20000.0             #价格下限，单位个/美元,带上小数点
+
+[Gold]
+    UpperLimit = 360.0               #价格上限，单位克/人民币,带上小数点
+    LowerLimit = 350.0               #价格上限，单位克/人民币,带上小数点
+
+[Email]
+    From          = "email@example.com"      #发件人
+    Authorization = "yourcode"               #授权码或者密码
+    Host          = "smtp.example.com"       #smtp服务器地址
+    Port          = 25                       #smtp服务器端口
+    MailTo        = ["target@example.com"]   #收件人列表
