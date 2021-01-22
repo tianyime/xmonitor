@@ -7,4 +7,4 @@
 
 ### 使用
  * go build -o xmonitor main.go
- * ./xmonitor &
+ * nohup ./xmonitor &
